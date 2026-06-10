@@ -43,6 +43,15 @@ export default function LandingPage() {
 
   return (
     <Layout>
+      <div className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-6 py-4">
+        <span className="text-white/70 text-sm tracking-wide">Крым</span>
+        <a
+          href="tel:+79785085520"
+          className="text-white font-semibold text-sm tracking-wide hover:text-[#FF4D00] transition-colors"
+        >
+          +7 978 508-55-20
+        </a>
+      </div>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
         {sections.map((section, index) => (
           <button
